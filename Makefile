@@ -8,13 +8,6 @@ PAHO_MQTTPACKET_ROOT=./paho
 
 include ${ROOT}/makedefs
 
-# gcc qos0pub.c  -I
-# ../src
-# ../src/MQTTConnectClient.c
-# ../src/MQTTSerializePublish.c
-# ../src/MQTTPacket.c
-# -o qos0pub
-
 # source files macro
 VPATH=.
 VPATH+=./platform
